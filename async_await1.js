@@ -13,5 +13,10 @@ async function asyncFunc() {
     console.log('hello');
 }
 
+function hello() {
+    console.log("Will I come befor async or not ? Guess !!")
+}
+
 // calling the async function
 asyncFunc();
+hello()
